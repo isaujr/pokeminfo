@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pokemon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>PokemoInfo</title>
+</head>
+<body>
+    
+    <h1 class="title">PokemoInfo</h1>
+
+    <div class="pokemon-list">
+        <div class="pokemon">
+            <img id="foto" src="" alt="">
+            <p id="name"></p>
+        </div><!--pokemon-->
+        <div class="pokemon-info">
+
+            <div class="single-info">
+                <label>HP:</label>
+                <p id="hp"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Speed:</label>
+                <p id="speed"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Attack:</label>
+                <p id="atk"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Especial Attack:</label>
+                <p id="esp_atk"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Defense:</label>
+                <p id="def"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Especial Defense:</label>
+                <p id="esp_def"></p>
+            </div><!--single-info-->
+            <div class="single-info">
+                <label>Type:</label>
+                <p id="type1"></p>
+                <p id="type2"></p>
+            </div><!--single-info-->
+            <div class="single-next">
+                <button onclick="dimin()">« Prev</button>
+                <button onclick="somar()">Next »</button>
+            </div><!--single-next-->
+            <div class="search">
+            </div><!--search-->
+            
+        </div><!--pokemon-info-->
+    </div><!--pokemon-list-->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
